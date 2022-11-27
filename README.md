@@ -2,19 +2,16 @@
 ***
 
 ## Task
-TODO - What is the problem? And where is the challenge?
+Create a reimplementation of the "printf" function with some limitations.
 
 ## Description
-TODO - How have you solved the problem?
+Using all custom functions reproduce the behaviors of int, unsigned, char, str, x, pointer; 
 
 ## Installation
-TODO - How to install your project? npm install? make? make re?
+Just type "make" in your terminal then type "./my_printf"
 
 ## Usage
-TODO - How does it work?
-```
-./my_project argument1 argument2
-```
+you can play around in the main function inside my_printf.c
 
 ### The Core Team
 
