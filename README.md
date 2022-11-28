@@ -5,13 +5,16 @@
 Create a reimplementation of the "printf" function with some limitations.
 
 ## Description
-Using all custom functions reproduce the behaviors of int, unsigned, char, str, x, pointer; 
+Using all custom functions reproduce the behaviors of int, unsigned, char, str; 
 
 ## Installation
-Just type "make" in your terminal then type "./my_printf"
+TODO - How to install your project? npm install? make? make re?
 
 ## Usage
-you can play around in the main function inside my_printf.c
+TODO - How does it work?
+```
+./my_project argument1 argument2
+```
 
 ### The Core Team
 

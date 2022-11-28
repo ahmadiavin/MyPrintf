@@ -44,6 +44,29 @@ void my_hex(unsigned int x, int *length, char hex)
     }
     while (i--) my_putchar_len(str[i], length);
 }
+void my_octal(unsigned int o, int *length, char octal)
+{
+    char str[25];
+    char *baseChar;
+    int i;
+    if (octal == 'O')
+        baseChar = "0123456789ABCDEF";
+    else
+        baseChar = "0123456789abcdef";
+    i = 0;
+    if (o == 0)
+    {
+        my_putchar_len('0', length);
+        return;
+    }
+    while (o != 0)
+    {
+        str[i] = baseChar[o % 8];
+        o = o / 8;
+        i++;
+    }
+    while (i--) my_putchar_len(str[i], length);
+}
 // p
 void my_pointer(size_t pointer, int *length)
 {
