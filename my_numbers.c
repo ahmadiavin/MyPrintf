@@ -49,10 +49,7 @@ void my_octal(unsigned int o, int *length, char octal)
     char str[25];
     char *baseChar;
     int i;
-    if (octal == 'O')
-        baseChar = "0123456789ABCDEF";
-    else
-        baseChar = "0123456789abcdef";
+    if (octal == 'o') baseChar = "0123456789abcdef";
     i = 0;
     if (o == 0)
     {

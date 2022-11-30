@@ -9,8 +9,6 @@ static void my_conversion_check(char s, va_list *args, int *len, int *i)
         my_int(va_arg(*args, int), len);
     else if (s == 'o')
         my_octal(va_arg(*args, unsigned int), len, 'o');
-    else if (s == 'O')
-        my_octal(va_arg(*args, unsigned int), len, 'O');
     else if (s == 'u')
         my_unsigned_int(va_arg(*args, unsigned int), len);
     else if (s == 'x')
@@ -54,14 +52,15 @@ int my_printf(const char *string, ...)
 
 int main()
 {
-    int result = my_printf("Testing\n");
-    int result2 = printf("Testing\n");
-    char result3 = my_printf("C\n");
+    // int result = my_printf("Testing\n");
+    // int result2 = printf("Testing\n");
+    // char result3 = my_printf("C\n");
 
-    my_printf("%d-%d-%d!\n", 2048, 0, -1337);
+    // my_printf("%d-%d-%d!", 2048, 0, -1337);
     my_printf("%o!\n", 100);
-    my_printf("%x!\n", 14);
+    // my_printf("hey guys");
+    my_printf("%X!\n", 14);
 
-    printf("\nresult = %d\nresult2 = %d\n result3 = %d", result, result2,
-           result3);
+    // printf("\nresult = %d\nresult2 = %d\n result3 = %d", result, result2,
+    //        result3);
 }
