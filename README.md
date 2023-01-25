@@ -18,3 +18,5 @@ https://github.com/ahmadiavin/MyPrintf/
 - Compile automatically using the included makefile using `make` or manually `gcc -Wall -Wextra -Werror *.c -o my_printf`
 - Run the program `./my_printf`
 
+## Screenshot 
+![myprintf](https://user-images.githubusercontent.com/36825975/214677492-e84829f0-f9cc-493b-88d8-d95a9af9dcee.png)
