@@ -1,23 +1,20 @@
-# Welcome to My Printf
+# MyPrintf 
 ***
 
 ## Task
-Create a reimplementation of the "printf" function with some limitations.
+This project is a simple reimplementation of the `printf()` C standard library function. 
 
 ## Description
-Using all custom functions reproduce the behaviors of int, unsigned, char, str; 
+This is a command-line application that handles the following conversion specifiers:
+(character, string, signed integer, unsigned integer, octal, hexadecimal, memory address) based on their associated flags in the C language (`%c`, `%s`, `%d`, `%u`, `%o`, `%x`, `%p`)
 
-## Installation
-TODO - How to install your project? npm install? make? make re?
+## Installation and usage
+Steps:
+- You can download the project folder and files manually to your computer or fork the Github repo at:
+https://github.com/ahmadiavin/MyPrintf/
+- Or through your terminal, clone this repository: `git clone https://github.com/ahmadiavin/MyPrintf/`
+- Go to the directory containing this project: `cd my_printf`
+- Check to see if you have a GCC or clang compiler installed: `gcc --version`
+- Compile automatically using the included makefile using `make` or manually `gcc -Wall -Wextra -Werror *.c -o my_printf`
+- Run the program `./my_printf`
 
-## Usage
-TODO - How does it work?
-```
-./my_project argument1 argument2
-```
-
-### The Core Team
-
-
-<span><i>Made at <a href='https://qwasar.io'>Qwasar SV -- Software Engineering School</a></i></span>
-<span><img alt='Qwasar SV -- Software Engineering School's Logo' src='https://storage.googleapis.com/qwasar-public/qwasar-logo_50x50.png' width='20px'></span>
